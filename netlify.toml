@@ -1,0 +1,5 @@
+# Keyz Dev — konfigurasi deploy Netlify.
+# publish = "." karena index.html ada di root (TIDAK ada folder dist).
+[build]
+  command = "npm run build"
+  publish = "."
